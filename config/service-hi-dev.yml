@@ -16,8 +16,11 @@ spring:
       trace:
         enabled: true
 management:
+  security:
+    enabled: false
   endpoints:
     web:
       exposure:
         include: bus-refresh
+
 pro: 123456
