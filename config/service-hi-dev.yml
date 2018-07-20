@@ -20,4 +20,4 @@ management:
     web:
       exposure:
         include: bus-refresh
-pro: 12345
+pro: 123456
